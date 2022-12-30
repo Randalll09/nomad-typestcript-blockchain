@@ -1,0 +1,12 @@
+{
+  "include": ["src"], //컴파일할 타입스크립트 파일 위치
+  "compilerOptions": {
+    "outDir": "build", //컴파일한 파일의 위치
+    "target": "ES6", //컴파일한 자바스크립트 버전
+    "lib": ["ES6", "DOM"], //작동환경(es6, 브라우저)
+    "strict": true, //strict mode
+    // "allowJs": true, //자바스크립트 허용
+    "esModuleInterop": true,
+    "module": "CommonJS"
+  }
+}
